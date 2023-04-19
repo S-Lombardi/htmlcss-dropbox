@@ -71,12 +71,11 @@ ul li{
     list-style-type: none;
 }
 
-.button-drop{
+.button-dropbox{
     background-color: rgb(72, 72, 240);
     color: white;
     border: none;
     padding: 10px;
-
 }
 /* DFine style */
 
@@ -97,6 +96,9 @@ ul li{
 }
 /* Fine Struttura */
 /* FINE UTILIà */
+
+
+
 
 /* HEADER */
 /* MENU LEFT */
@@ -122,12 +124,7 @@ header ul li a{
 .menu-right{
     justify-content: flex-end;
 }
-
-/* FINE TESTO MENU */
-
-
-
-
+/* FINE  MENU RIGHT*/
 /* FINE HEADER */
 
 
@@ -140,6 +137,32 @@ header ul li a{
     height: 400px;
     margin-bottom: 100px;
 }
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+/* COL LEFT */
+
+
+/* FINE COL LEFT */
+.img-jumbo img{
+   width: 500px;
+   float: right;
+}
+
+.img-jumbo::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+
+
+
+
+
 /* FINE JUMBOTRON */
 
 
@@ -148,3 +171,4 @@ header ul li a{
 /* SEZIONE 3 - Operazioni */
 
 /* FINE SEZIONE 3 - Operazioni */
+
