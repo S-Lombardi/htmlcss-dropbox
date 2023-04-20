@@ -1,16 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 
 }
 
 /* UTILIà */
-.container-center{
+.container-center {
     width: 60%;
     margin: auto;
     padding-top: 50px;
@@ -18,7 +19,7 @@ body{
     background-color: rgb(210, 219, 216);
 }
 
-.container-large{
+.container-large {
     width: 75%;
     margin: auto;
     padding-top: 20px;
@@ -26,40 +27,42 @@ body{
     background-color: rgb(201, 216, 194);
 }
 
-.col-100{
+.col-100 {
     height: 150px;
     width: calc(100% - 20px);
     margin: 10px;
     background-color: bisque;
 }
 
-.col-50{
+.col-50 {
     height: 60px;
     width: calc(50% - 20px);
     margin: 10px;
     background-color: bisque;
 }
 
-.col-70{
+.col-70 {
     height: 200px;
     width: calc(70% - 20px);
     margin: 10px;
     background-color: bisque;
 }
-.col-30{
+
+.col-30 {
     height: 200px;
     width: calc(30% - 20px);
     margin: 10px;
     background-color: bisque;
 }
-.col-33{
-    height: 450px;
+
+.col-33 {
+    height: 700px;
     width: calc(33% - 20px);
     margin: 10px;
     background-color: bisque;
 }
 
-.col-20{
+.col-20 {
     height: 300px;
     width: calc(50% - 20px);
     margin: 10px;
@@ -68,33 +71,41 @@ body{
 
 /* style */
 
-h2{
+h2 {
     font-size: 30px;
 }
 
-ul li{
+h3{
+    font-size: 25px;
+
+}
+
+ul li {
     list-style-type: none;
 }
 
-.button-dropbox{
+.button-dropbox {
     background-color: rgb(72, 72, 240);
     color: white;
     border: none;
     padding: 10px;
 }
+
 /* DFine style */
 
 
 /* Struttura */
-.row{
+
+.row {
     width: 100%;
     display: flex;
 }
-.wrap{
+
+.wrap {
     flex-wrap: wrap;
 }
 
-.align-center{
+.align-center {
     height: 100%;
     display: flex;
     align-items: center;
@@ -108,28 +119,29 @@ ul li{
 
 /* HEADER */
 /* MENU LEFT */
-.logo-dropbox{
+.logo-dropbox {
     margin-right: 20px;
 }
 
-header ul li{
+header ul li {
     display: inline-block;
     margin-right: 20px;
 }
 
-header ul{
+header ul {
     display: inline;
 }
 
-header ul li a{
+header ul li a {
     text-decoration: none;
     color: black;
 }
 
 /* MENU RIGHT */
-.menu-right{
+.menu-right {
     justify-content: flex-end;
 }
+
 /* FINE  MENU RIGHT*/
 /* FINE HEADER */
 
@@ -137,61 +149,74 @@ header ul li a{
 
 
 /* JUMBOTRON */
-.jumbotron{
+.jumbotron {
     background-color: rgb(160, 202, 230);
     width: 100%;
     height: 400px;
-    margin-bottom: 400px;  /* MARGINE JUMBO*/!!!
+    margin-bottom: 400px;
+    /*RICORDA  MARGINE JUMBO*/
+
 }
-h1{
+
+
+h1 {
     font-size: 50px;
     font-weight: bold;
 }
-/* COL LEFT */
 
 
-/* FINE COL LEFT */
-
-.img-jumbo img{
-   width: 100%;
+.img-jumbo img {
+    width: 100%;
 }
+
 /* FINE JUMBOTRON */
 
 
-/* SEZIONE 1 - Piano business*/
 
-.input-business input{
+
+
+/* SEZIONE 1 - Piano business*/
+.input-business input {
     margin-top: 30px;
-    
+
 }
+
+/* INIZIO COLONNE */
 /* COL LEFT */
-.content-price div:first-child{
+.content-price div:first-child {
     text-align: center;
-    font-size: 12px;
     border-bottom: 1px solid gray;
+    padding: 5px 0px 5px 0px;
 }
-.border{
+
+.border {
     border: 1px solid gray;
 }
+
 /* ELENZO PREZZI */
-.price{
-    line-height: 20px
+.price {
+    line-height: 30px;
+    margin-bottom: 29px;
 }
-.price h5{
+
+.price h3 {
     padding-top: 20px;
 }
-.price strong, span {
-    font-size: 11px;
-    display: block;
+
+.content-price ul li{
+    padding: 5px 0px 5px 0px;
 }
 
+.content-price input[type="button"]{
+    margin: 40px 0px 40px 0px;
 
+}
 
-
-
-
-
-
+.second-price-list{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* FINE COLONNE */
 
 /* FINE SEZIONE 1 - Piano business*/
 
@@ -201,4 +226,3 @@ h1{
 /* SEZIONE 3 - Operazioni */
 
 /* FINE SEZIONE 3 - Operazioni */
-
