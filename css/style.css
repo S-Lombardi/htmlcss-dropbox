@@ -301,11 +301,21 @@ h1{
 
 
 
-/* SEZIONE 3 - Operazioni */
 
+/* SEZIONE 3 - Operazioni */
 .operations img{
     width: 100%;
 }
-
-
 /* FINE SEZIONE 3 - Operazioni */
+
+
+
+
+
+/* SEZIONE 4 - Clienti */
+.link-client h2{
+    padding-bottom: 50px;
+}
+
+
+/* FINE SEZIONE 4 - Clienti */
