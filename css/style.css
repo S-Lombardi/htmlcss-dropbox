@@ -303,5 +303,9 @@ h1{
 
 /* SEZIONE 3 - Operazioni */
 
+.operations img{
+    width: 100%;
+}
+
 
 /* FINE SEZIONE 3 - Operazioni */
