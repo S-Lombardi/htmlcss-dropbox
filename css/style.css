@@ -183,7 +183,8 @@ h1 {
 
 /* INIZIO COLONNE */
 /* COL LEFT */
-.content-price div:first-child {
+
+.content-price > div:first-child {
     text-align: center;
     border-bottom: 1px solid gray;
     padding: 5px 0px 5px 0px;
@@ -209,6 +210,12 @@ h1 {
 
 .content-price input[type="button"]{
     margin: 40px 0px 40px 0px;
+
+}
+.col-padding {
+    padding: 20px;
+}
+.input-price div{
 
 }
 
