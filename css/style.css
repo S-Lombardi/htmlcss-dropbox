@@ -9,7 +9,9 @@ body {
     
 
 }
-
+footer {
+    background-color: black;
+}
 /* UTILIà */
 .container-center {
     width: 60%;
@@ -203,10 +205,10 @@ h1{
 /* SEZIONE 1 - Piano business*/
 .input-business input {
     margin-top: 30px;
-
+    
 }
 
-/* INIZIO COLONNE VERICALI*/
+/* INIZIO COLONNE VERTICALI*/
 .content-price > div:first-child {
     text-align: center;
     border-bottom: 1px solid gray;
@@ -218,8 +220,8 @@ h1{
 }
 
 .col-33.piano {
-    min-height: 830px;  
-
+    min-height: 860px;  
+    
 }
 
 /* Margini - altezze */
@@ -245,8 +247,16 @@ h1{
     padding-left: 30px;
     padding-right: 30px;
 }
-.second-price-list{
+.price-list{
     margin-top: 40px;
+}
+
+.col-padding hr {
+    width: 50px;
+    height: 1px;
+    background-color: #b1b1b1;
+    border: none;
+    margin-top: 20px;
 }
 /* FINE COLONNE VERTICALI */
 
@@ -276,6 +286,8 @@ h1{
 /* FINE SEZIONE 1 - Piano business*/
 
 
+
+
 /* SEZIONE 2 - Trova partner */
 /* Immagine sinistra */
 .img-partner img{
@@ -289,9 +301,7 @@ h1{
 
 
 
-
-
-
 /* SEZIONE 3 - Operazioni */
+
 
 /* FINE SEZIONE 3 - Operazioni */
