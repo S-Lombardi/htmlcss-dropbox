@@ -32,6 +32,7 @@ body {
     width: calc(100% - 20px);
     margin: 10px;
     background-color: bisque;
+    margin-top: 70px;
 }
 
 .col-50 {
@@ -99,6 +100,7 @@ ul li {
 .row {
     width: 100%;
     display: flex;
+    background-color: rgb(179, 165, 165);
 }
 
 .wrap {
@@ -111,6 +113,10 @@ ul li {
     align-items: center;
 }
 
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
 /* Fine Struttura */
 /* FINE UTILIà */
 
@@ -159,7 +165,7 @@ header ul li a {
 }
 
 
-h1 {
+h1{
     font-size: 50px;
     font-weight: bold;
 }
@@ -194,34 +200,32 @@ h1 {
     border: 1px solid gray;
 }
 
+.col-padding {
+    padding: 30px;
+}
+
+.price-height{
+    min-height: 720px ;
+}
 /* ELENZO PREZZI */
 .price {
     line-height: 30px;
     margin-bottom: 29px;
 }
-
-.price h3 {
-    padding-top: 20px;
-}
+/* Titolo */
 
 .content-price ul li{
     padding: 5px 0px 5px 0px;
 }
-
+/* Pulsante */
 .content-price input[type="button"]{
     margin: 40px 0px 40px 0px;
-
-}
-.col-padding {
-    padding: 20px;
-}
-.input-price div{
-
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .second-price-list{
     margin-top: 40px;
-    margin-bottom: 40px;
 }
 /* FINE COLONNE */
 
