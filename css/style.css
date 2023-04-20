@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    
 
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .col-100 {
-    height: 150px;
+    min-height: 200px;
     width: calc(100% - 20px);
     margin: 10px;
     background-color: bisque;
@@ -36,14 +36,14 @@ body {
 }
 
 .col-50 {
-    height: 60px;
+    min-height: 60px;
     width: calc(50% - 20px);
     margin: 10px;
     background-color: bisque;
 }
 
 .col-70 {
-    height: 200px;
+    min-height: 200px;
     width: calc(70% - 20px);
     margin: 10px;
     background-color: bisque;
@@ -70,6 +70,20 @@ body {
     background-color: bisque;
 }
 
+.col-60{
+    height: 500px;
+    width: calc(60% - 20px);
+    margin: 10px;
+    background-color: bisque;
+}
+
+.col-40{
+    height: 500px;
+    width: calc(40% - 20px);
+    margin: 10px;
+    background-color: bisque;
+}
+
 /* style */
 
 h2 {
@@ -78,6 +92,7 @@ h2 {
 
 h3{
     font-size: 25px;
+    margin-bottom: 20px;
 
 }
 
@@ -90,13 +105,21 @@ ul li {
     color: white;
     border: none;
     padding: 10px;
+    font-size: 15px;
+    font-weight:lighter;
 }
 
-/* DFine style */
+.button-dropbox-light{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 18px;
+    border: 0.5px solid black;
+}
+/* Fine style */
 
 
 /* Struttura */
-
 .row {
     width: 100%;
     display: flex;
@@ -140,7 +163,7 @@ header ul {
 
 header ul li a {
     text-decoration: none;
-    color: black;
+   color: black;
 }
 
 /* MENU RIGHT */
@@ -161,20 +184,16 @@ header ul li a {
     height: 400px;
     margin-bottom: 400px;
     /*RICORDA  MARGINE JUMBO*/
-
 }
-
 
 h1{
     font-size: 50px;
     font-weight: bold;
 }
 
-
 .img-jumbo img {
     width: 100%;
 }
-
 /* FINE JUMBOTRON */
 
 
@@ -187,49 +206,88 @@ h1{
 
 }
 
-/* INIZIO COLONNE */
-/* COL LEFT */
-
+/* INIZIO COLONNE VERICALI*/
 .content-price > div:first-child {
     text-align: center;
     border-bottom: 1px solid gray;
     padding: 5px 0px 5px 0px;
 }
 
-.border {
+.piano {
     border: 1px solid gray;
 }
 
+.col-33.piano {
+    min-height: 830px;  
+
+}
+
+/* Margini - altezze */
 .col-padding {
     padding: 30px;
 }
-
-.price-height{
-    min-height: 720px ;
-}
-/* ELENZO PREZZI */
+/* ELENCO PREZZI */
 .price {
     line-height: 30px;
     margin-bottom: 29px;
 }
 /* Titolo */
-
 .content-price ul li{
     padding: 5px 0px 5px 0px;
 }
+
+.content-price{
+    font-size: 14px;
+}
 /* Pulsante */
-.content-price input[type="button"]{
+.content-price .input-price input[type="button"]{
     margin: 40px 0px 40px 0px;
     padding-left: 30px;
     padding-right: 30px;
 }
-
 .second-price-list{
     margin-top: 40px;
 }
-/* FINE COLONNE */
+/* FINE COLONNE VERTICALI */
 
+
+
+
+
+/* COLONNA ORIZZONTALE */
+.content-enterprise{
+    position: relative;
+    
+}
+/* BOTTONE */
+.content-enterprise input[type="button"]{
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.content-enterprise h4{
+    margin-bottom: 40px;
+}
+
+/* FINE COLONNA ORIZZONTALE */
 /* FINE SEZIONE 1 - Piano business*/
+
+
+/* SEZIONE 2 - Trova partner */
+/* Immagine sinistra */
+.img-partner img{
+    width: 100%;
+}
+/* Pulsante */
+.text-partner input[type="button"]{
+    margin-top: 40px;
+}
+/* SEZIONE 2 - Trvova partner */
+
+
 
 
 
