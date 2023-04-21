@@ -374,7 +374,6 @@ h1{
 .square-wrap img{
     width: 70%;
 }
-
 .square-wrap hr {
     width: 100px;
     height: 1px;
@@ -383,12 +382,10 @@ h1{
     margin-top: 40px;
     margin-bottom: 40px;
 }
-
 .square-wrap span{
     display: block;
     margin-top: 30px;
 }
-
 
 /* COLORI SQUAREs */
 .square-red{
@@ -409,3 +406,56 @@ h1{
     background-color: blue;
 
 }
+/* FINE QUADRATI FULL */
+
+
+
+/* INIZIO SEZIONE 6 FULL- prova gratuita */
+
+.trial-wrap{
+    position: relative;
+}
+
+.trial-wrap input[type="button"]{
+    position:absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.trial-wrap h2{
+    color: rgb(124, 17, 17);
+}
+
+.background-trial{
+    background-color: rgb(125, 214, 214);
+}
+/* FINE SEZIONE 6 FULL */
+
+
+/* INIZIO SEZIONE 7 - Domande Frequenti */
+.query-wrap h2{
+    margin-bottom: 50px;
+}
+
+.query-wrap{
+    position: relative;
+}
+.query-wrap i{
+    position: absolute;
+    right: 0;
+    padding-right: 40px;
+    font-size: 15px;
+}
+.query-wrap span{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+
+
+/* FINE SEZIONE 7 - Domande Frequenti */
+
