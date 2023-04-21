@@ -133,6 +133,8 @@ header{
     background-color: white;
     border-bottom: solid rgb(206, 206, 206);
     border-width: thin;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* MENU LEFT */
@@ -165,11 +167,11 @@ header ul li a {
 
 /* JUMBOTRON */
 .jumbotron {
-    background-color: rgb(160, 202, 230);
     width: 100%;
-    /* height: 550px; */
+    padding-top: 50px;
     margin-bottom: 200px;
-    /*RICORDA  MARGINE JUMBO*/
+    background-color: rgb(160, 202, 230);
+    /*RICORDA MARGINE e PADDING JUMBO*/
 }
 
 /* TITOLONE*/
