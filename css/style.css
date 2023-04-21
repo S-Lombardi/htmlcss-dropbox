@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    
+
 
 }
 footer {
@@ -221,7 +221,7 @@ h1{
 /* SEZIONE 1 - Piano business*/
 .input-business input {
     margin-top: 30px;
-    
+
 }
 
 /* INIZIO COLONNE VERTICALI*/
@@ -236,8 +236,8 @@ h1{
 }
 
 .col-33.piano {
-    min-height: 860px;  
-    
+    min-height: 860px;
+
 }
 
 /* Margini - altezze */
@@ -260,8 +260,7 @@ h1{
 /* Pulsante */
 .content-price .input-price input[type="button"]{
     margin: 40px 0px 40px 0px;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 100%;
 }
 .price-list{
     margin-top: 40px;
@@ -272,7 +271,7 @@ h1{
     height: 1px;
     background-color: #b1b1b1;
     border: none;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 /* FINE COLONNE VERTICALI */
 
@@ -283,7 +282,7 @@ h1{
 /* COLONNA ORIZZONTALE */
 .content-enterprise{
     position: relative;
-    
+
 }
 /* BOTTONE */
 .content-enterprise input[type="button"]{
@@ -346,7 +345,7 @@ h1{
 
 .height-100{
     height: 100%;
-} 
+}
 .col-33-full{
     width: calc(100%/3);
     height: calc(100vw/3);
@@ -368,11 +367,19 @@ h1{
     transform: translate(-50%, -50%);
 }
 
+/* QUADRATO CENTRALE */
+.square-wrap{
+    padding: 50px;
+}
 
-/* COLORI QUADRATI PICCOLI */
+.square-wrap img{
+    width: 70%;
+}
+
+
+/* COLORI SQUAREs */
 .square-red{
     background-color: red;
-
 }
 
 .square-green{
