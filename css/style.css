@@ -371,9 +371,22 @@ h1{
 .square-wrap{
     padding: 50px;
 }
-
 .square-wrap img{
     width: 70%;
+}
+
+.square-wrap hr {
+    width: 100px;
+    height: 1px;
+    background-color: #5f5f5f;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.square-wrap span{
+    display: block;
+    margin-top: 30px;
 }
 
 
