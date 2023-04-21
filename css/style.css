@@ -6,12 +6,8 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-
-
 }
-footer {
-    background-color: black;
-}
+
 /* UTILIà */
 .container-center {
     width: 60%;
@@ -129,6 +125,16 @@ ul li {
 
 
 /* HEADER */
+header{
+    position:fixed;
+    right: 0px;
+    left: 0px;
+    z-index: 99;
+    background-color: white;
+    border-bottom: solid rgb(206, 206, 206);
+    border-width: thin;
+}
+
 /* MENU LEFT */
 .logo-dropbox {
     margin-right: 20px;
@@ -157,8 +163,6 @@ header ul li a {
 /* FINE HEADER */
 
 
-
-
 /* JUMBOTRON */
 .jumbotron {
     background-color: rgb(160, 202, 230);
@@ -168,11 +172,15 @@ header ul li a {
     /*RICORDA  MARGINE JUMBO*/
 }
 
-/* TESTO */
+/* TITOLONE*/
 h1{
+    position: relative;   
+    top: 47px;
     font-size: 50px;
     font-weight: bold;
 }
+/* FINE TITOLO*/
+/* COL LEFT  */
 .left-jumbo p{
     padding-bottom: 30px
 }
@@ -181,30 +189,15 @@ h1{
     margin-bottom: 20px;
 }
 
-/* IMG */
-
-/* PROVE JUMBO*/
-.left-jumbo{
-    position: relative;
-    bottom: -90px;
-
-}
-
 .right-jumbo{
     position: relative;
     bottom: -90px;
 }
-
-h1{
+/* IMG */
+.left-jumbo{
     position: relative;
-    top: 47px;
+    bottom: -90px;
 }
-
-
-
-
-
-
 .right-jumbo img {
     width: 100%;
 }
@@ -466,6 +459,10 @@ h1{
 /* INIZIO FOOTER */
 /* Footer up */
 
+footer {
+    background-color: black;
+}
+
 footer h3{
     color: rgb(255, 255, 255);
     font-weight: bolder
@@ -492,6 +489,8 @@ footer a {
 .wrap-languages-footer > ul{
     color: #ffffff;
 }
+
+
 
 /* FINE FOOTER */
 
