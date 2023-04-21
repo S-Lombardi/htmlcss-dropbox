@@ -30,7 +30,7 @@ footer {
 }
 
 .col-100 {
-    min-height: 200px;
+    
     width: calc(100% - 20px);
     margin: 10px;
     background-color: bisque;
@@ -59,7 +59,6 @@ footer {
 }
 
 .col-33 {
-    height: 700px;
     width: calc(33% - 20px);
     margin: 10px;
     background-color: bisque;
@@ -165,7 +164,7 @@ header ul {
 
 header ul li a {
     text-decoration: none;
-   color: black;
+    color: black;
 }
 
 /* MENU RIGHT */
@@ -461,33 +460,32 @@ h1{
 /* INIZIO FOOTER */
 /* Footer up */
 
-.link-footer h3{
+footer h3{
     color: rgb(255, 255, 255);
     font-weight: bolder
 }
-.link-footer ul {
-    line-height: 30px
-}
 
-.link-footer ul li a {
+footer a {
+    line-height: 30px;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-weight: bolder
+    font-weight: bolder;
+}
+/* FINE Footer up */
+/* Footer down */
+
+.wrap-languages-footer>hr{
+    width: 150px;
+    height: 3px;
+    background-color: #ffffff;
+    border: none;
+    margin-top: 50px;
+    margin-bottom:50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* FINE Footer up */
+.wrap-languages-footer > ul{
+    color: #ffffff;
+}
 
 /* FINE FOOTER */
 
