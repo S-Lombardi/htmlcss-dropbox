@@ -454,8 +454,40 @@ h1{
     padding-bottom: 30px;
     font-weight: bold;
 }
-
-
-
 /* FINE SEZIONE 7 - Domande Frequenti */
+
+
+
+/* INIZIO FOOTER */
+/* Footer up */
+
+.link-footer h3{
+    color: rgb(255, 255, 255);
+    font-weight: bolder
+}
+.link-footer ul {
+    line-height: 30px
+}
+
+.link-footer ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FINE Footer up */
+
+/* FINE FOOTER */
 
