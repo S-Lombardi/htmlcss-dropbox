@@ -183,19 +183,35 @@ header ul li a {
 .jumbotron {
     background-color: rgb(160, 202, 230);
     width: 100%;
-    height: 400px;
+    height: 700px;
     margin-bottom: 400px;
     /*RICORDA  MARGINE JUMBO*/
 }
 
+/* TESTO */
 h1{
     font-size: 50px;
     font-weight: bold;
 }
+.left-jumbo p{
+    padding-bottom: 30px
+}
 
-.img-jumbo img {
+.left-jumbo input[type="button"]{
+    margin-bottom: 20px;
+}
+
+/* IMG */
+.right-jumbo img {
     width: 100%;
 }
+/* Freccia */
+.left-jumbo i {
+    font-size: 50px;
+    margin-top: 50px;
+
+}
+
 /* FINE JUMBOTRON */
 
 
