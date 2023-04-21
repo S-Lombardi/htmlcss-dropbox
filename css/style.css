@@ -18,7 +18,6 @@ footer {
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: rgb(210, 219, 216);
 }
 
 .container-large {
@@ -26,63 +25,46 @@ footer {
     margin: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(201, 216, 194);
 }
 
 .col-100 {
-    
     width: calc(100% - 20px);
     margin: 10px;
-    background-color: bisque;
-    margin-top: 70px;
 }
 
 .col-50 {
-    min-height: 60px;
     width: calc(50% - 20px);
     margin: 10px;
-    background-color: bisque;
 }
 
 .col-70 {
-    min-height: 200px;
     width: calc(70% - 20px);
     margin: 10px;
-    background-color: bisque;
 }
 
 .col-30 {
-    height: 200px;
     width: calc(30% - 20px);
     margin: 10px;
-    background-color: bisque;
 }
 
 .col-33 {
     width: calc(33% - 20px);
     margin: 10px;
-    background-color: bisque;
 }
 
 .col-20 {
-    height: 300px;
     width: calc(50% - 20px);
     margin: 10px;
-    background-color: bisque;
 }
 
 .col-60{
-    height: 500px;
     width: calc(60% - 20px);
     margin: 10px;
-    background-color: bisque;
 }
 
 .col-40{
-    height: 500px;
     width: calc(40% - 20px);
     margin: 10px;
-    background-color: bisque;
 }
 
 /* style */
@@ -124,7 +106,6 @@ ul li {
 .row {
     width: 100%;
     display: flex;
-    background-color: rgb(179, 165, 165);
 }
 
 .wrap {
