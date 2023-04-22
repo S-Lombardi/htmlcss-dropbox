@@ -289,10 +289,6 @@ h1 {
     width: 100%;
 }
 
-.price-list {
-    margin-top: 40px;
-}
-
 .col-padding hr {
     width: 50px;
     height: 1px;
@@ -301,8 +297,12 @@ h1 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.price-list {
+    margin-top: 50px;
+}
 
-.color-check e linkacquista ora {
+/* ENTITIES */
+.price-list.check i {
     color: #0061ff;
 }
 
