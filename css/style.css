@@ -6,6 +6,7 @@
 
 body, input, textarea, button {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 /* UTILIà */
@@ -18,7 +19,6 @@ body, input, textarea, button {
 
 .margin{
     margin-bottom: 100px;
-
 }
 
 .container-large {
@@ -69,11 +69,12 @@ body, input, textarea, button {
 /* style */
 
 h2 {
-    font-size: 40px;
+    font-size:38px;
+    margin-bottom: 20px;
 }
 
 h3{
-    font-size: 25px;
+    font-size: 23px;
     margin-bottom: 20px;
 
 }
@@ -232,23 +233,28 @@ h1{
 /* INIZIO COLONNE VERTICALI*/
 .content-price > div:first-child {
     text-align: center;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(190, 190, 190);
     padding: 5px 0px 5px 0px;
 }
-
-.piano {
-    border: 1px solid gray;
+.border-gray {
+    border: 1px solid rgb(190, 190, 190);
+    border-width: thin;
 }
 
-.col-33.piano {
-    min-height: 860px;
-
-}
-
-/* Margini - altezze */
+/* Margini - padding */
 .col-padding {
     padding: 30px;
 }
+
+.col-33.border-gray{
+    margin-right: 30px;
+    margin-top:40px;
+}
+
+.col-100.border-gray{
+    margin-top: 30px;
+}
+
 /* ELENCO PREZZI */
 .price {
     line-height: 30px;
@@ -261,6 +267,9 @@ h1{
 
 .content-price{
     font-size: 14px;
+}
+.price>strong{
+    font-weight: 600;
 }
 /* Pulsante */
 .content-price .input-price input[type="button"]{
@@ -277,17 +286,17 @@ h1{
     background-color: #b1b1b1;
     border: none;
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+.color-check e linkacquista ora{
+    color: #0061ff;
 }
 /* FINE COLONNE VERTICALI */
-
-
-
 
 
 /* COLONNA ORIZZONTALE */
 .content-enterprise{
     position: relative;
-
 }
 /* BOTTONE */
 .content-enterprise input[type="button"]{
@@ -301,7 +310,6 @@ h1{
 .content-enterprise h4{
     margin-bottom: 40px;
 }
-
 /* FINE COLONNA ORIZZONTALE */
 /* FINE SEZIONE 1 - Piano business*/
 
@@ -310,12 +318,18 @@ h1{
 
 /* SEZIONE 2 - Trova partner */
 /* Immagine sinistra */
+.text-partner{
+    margin-top:50px;
+    margin-left:30px;
+}
 .img-partner img{
     width: 100%;
 }
 /* Pulsante */
 .text-partner input[type="button"]{
     margin-top: 40px;
+    font-weight: 300;
+    font-size: 16px;
 }
 /* SEZIONE 2 - Trvova partner */
 
