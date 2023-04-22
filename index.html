@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <title>Dropbox</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
@@ -100,8 +100,8 @@
                         <!-- Titolo -->
                         <h2>Trova il piano business che fa per te</h2>
                         <!-- Radio-button -->
-                        <input type="radio" name="fatt"> <label for="fatt">Fatturazione mensile</label>
-                        <input type="radio" name="fatt"> <label for="fatt">Fatturazione annuale</label>
+                        <input type="radio" name="fatt"> <label>Fatturazione mensile</label>
+                        <input type="radio" name="fatt"> <label>Fatturazione annuale</label>
                     </div>
                 </div>
             </div>
@@ -111,47 +111,85 @@
                 <!-- COL LEFT -->
                 <div class="col-33 border-gray">
                     <div class="content-price ">
-                        <!-- SINGOLO -->
+                        <!-- Singolo -->
                         <div> <i class="fa fa-user"></i> Singolo </div>
-                        <!--ELENCO PREZZI  -->
+                        <!--Prezzo -->
                         <div class="col-padding ">
                             <div class="price">
                                 <h3>Professional</h3>
                                 <strong>&euro; 12.00</strong>
                                 <div><em>/mese</em></div>
                             </div>
-                            <ul class="price-list">
+                            <!-- Lista e simboli -->
+                            <ul class="price-list check">
                                 <li>
-                                    <span><i class="fa fa-user"></i> 1 utente</span>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>1 utente</div>
+                                    </div>
                                 </li>
                                 <li>
-                                    <span><i class="fa fa-folder"></i> 5 TB di spazio di archiviazione sicuro</span>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-folder"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>5 TB di spazio di archiviazione sicuro </div>
+                                    </div>
                                 </li>
                                 <li>
-                                    <span><i class="fas fa-share-nodes"></i> Funzioni di produttività premium e
-                                        condivisione file semplice e sicura</span>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-share-nodes"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                                    </div>
                                 </li>
                             </ul>
+                            <!-- Fine Lista e simboli -->
                             <!-- PULSANTE -->
                             <div class="input-price justify-center">
                                 <input class="button-dropbox" type="button" value="Prova gratis per 30 giorni">
                             </div>
                             <!-- Link -->
                             <div>oppure <a href="#">acquista ora</a></div>
-                            
-                            <hr />
-
+                            <hr>
+                            <!-- INIZIO LISTA CHECK -->
                             <ul class="price-list check">
+                                <!-- Titolo -->
                                 <li>
                                     <h4>Punti salienti del piano</h4>
                                 </li>
                                 <li>
-                                    <span><i class="fas fa-check"></i> Invia file fino a 100 GB con Dropbox Transfer</span>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div> Invio Transfer fino a 100 GB con Dropbox Transfer</div>
+                                    </div>    
                                 </li>
+                               
                                 <li>
-                                    <span><i class="fas fa-check"></i> Cartelle offline su dispositivi mobili</span>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Cartelle offline su dispositivi mobili</div>
+                                    </div>    
                                 </li>
                             </ul>
+                            <!-- FINE LISTA CHECK -->
                         </div>
                     </div>
 
@@ -159,29 +197,49 @@
                 <!-- COL CENTER -->
                 <div class="col-33 border-gray">
                     <div class="content-price">
-                        <!-- TEAM -->
+                        <!-- Team -->
                         <div> <i class="fa fa-users"></i> Team </div>
-                        <!--ELENCO PREZZI  -->
+                        <!--Lista  -->
                         <div class="col-padding ">
                             <div class="price">
                                 <h3>Advanced</h3>
                                 <strong>&euro; 18.00</strong>
                                 <div><em>/utente/mese</em></div>
                             </div>
-                            <!-- Lista 1-->
-                            <ul class="price-list">
+                            <!-- Inizio Lista e Simboli-->
+                            <ul class="price-list check">
                                 <li>
-                                    <span><i class="fa fa-users"></i> 3 o più utenti</span>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-users"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>3 o più utenti</div>
+                                    </div>
                                 </li>
                                 <li>
-                                    <span><i class="fa fa-folder"></i> Tutto lo spazio di cuii ha bisogno in tuo
-                                        team</span>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-folder"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>3 o più utentiTutto lo spazio di cuii ha bisogno in tuo team </div>
+                                    </div>
                                 </li>
                                 <li>
-                                    <span><i class="fas fa-share-nodes"></i> Sofisticate funzioni di controllo e per
-                                        tenere al sicuro tutti i fil del tuo team</span>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-share-nodes"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Sofisticate funzioni di controllo e per tenere al sicuro tutti i fil del tuo team</div>
+                                    </div>
                                 </li>
                             </ul>
+                            <!-- Fine Lista e simboli -->
                             <!-- PULSANTE -->
                             <div class="input-price justify-center">
                                 <input class="button-dropbox" type="button" value="Prova gratis per 30 giorni">
@@ -189,31 +247,65 @@
                             <!-- Link -->
                             <div>oppure <a href="#">acquista ora</a></div>
 
-                            <hr />
-                            <!-- Lista 2-->
+                            <hr>
+                            <!-- INIZIO LISTA CHECK -->
                             <ul class="price-list check">
                                 <li>
                                     <h4>Punti salienti del piano</h4>
                                 </li>
                                     
                                 <li>
-                                    <span><i class="fas fa-check"></i> Nessun limite di spazio per i file</span>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Nessun limite di spazio per i file </div>
+                                    </div>    
                                 </li>
                                 <li>
-                                    <span><i class="fas fa-check"></i> Cartelle offline su dispositivi mobili</span>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Cartelle offline su dispositivi mobili</div>
+                                    </div>    
                                 </li>
                                 <li>
-                                    <span><i class="fas fa-check"></i> Risparmio del 50% rispetto alle iscrizioni
-                                        singole</span>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Risparmio del 50% rispetto alle iscrizioni singole</div>
+                                    </div>    
                                 </li>
                                 <li>
-                                    <span><i class="fas fa-check"></i> Possibilità di inserire nuovi membri del
-                                        team</span>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Possibilità di inserire nuovi membri del team</div>
+                                    </div>
                                 </li>
                                 <li>
-                                    <span><i class="fas fa-check"></i> Gestione dei permessi in base ai ruoli</span>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Gestione dei permessi in base ai ruoli</div>
+                                    </div>
                                 </li>
                             </ul>
+                            <!-- FINE LISTA CHECK -->
                         </div>
                     </div>
 
@@ -231,40 +323,84 @@
                                 <strong>Contattaci</strong>
                                 <div><em>-</em></div>
                             </div>
-                            <ul class="price-list">
+                            <!-- Inizio lista -->
+                            <ul class="price-list check">
                                 <li>
-                                    <span><i class="fa fa-user"></i> 1 utente</span>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-users"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>10 o più utenti</div>
+                                    </div>
                                 </li>
                                 <li>
-                                    <span><i class="fa fa-folder"></i> 5 TB di spazio di archiviazione sicuro</span>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-folder"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Soluzioni personalizzabili per la tua azienda</div>
+                                    </div>
                                 </li>
                                 <li>
-                                    <span><i class="fas fa-share-nodes"></i> Funzioni di produttività premium e
-                                        condivisione file semplice e sicura</span>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-share-nodes"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Assistenza personalizzata per aiutare gli amministratori in una  gestione su larga scala</div>
+                                    </div>
                                 </li>
                             </ul>
+                            <!-- Fine lista -->
                             <!-- PULSANTE -->
                             <div class="input-price justify-center">
                                 <input class="button-dropbox" type="button" value="Contattaci">
                             </div>
                             <!-- Link -->
                             <div>oppure <a href="#">acquista ora</a></div>
-                            <hr />
+                            <hr>
+                            <!-- INIZIO LISTA CHECK -->
                             <ul class="price-list check">
                                 <li>
                                     <h4>Punti salienti del piano</h4>
                                 </li>
-                                
                                 <li>
-                                    <div><i class="fas fa-check"></i> Cartelle offline su dispositivi mobili</div>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Cartelle offline su dispositivi mobili</div>
+                                    </div>
                                 </li>
                                 <li>
-                                    <span><i class="fas fa-check"></i> Servizio assistenza 24/h</span>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Servizio assistenza 24/h</div>
+                                    </div>
                                 </li>
                                 <li>
-                                    <span><i class="fas fa-check"></i> Possibilità di personalizzazione totale</span>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Possibilità di personalizzazione totale</div>
+                                    </div>
                                 </li>
                             </ul>
+                            <!-- FINE LISTA CHECK -->
                         </div>
                     </div>
                 </div>
