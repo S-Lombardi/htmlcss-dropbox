@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+body, input, textarea, button {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -86,7 +86,7 @@ ul li {
     background-color: #0061ff;
     color: white;
     border: none;
-    padding: 13px;
+    padding: 10px 15px 10px 15px;
     font-size: 15px;
     font-weight:lighter;
 }
@@ -161,6 +161,10 @@ header ul li a {
 /* MENU RIGHT */
 .menu-right {
     justify-content: flex-end;
+}
+
+.menu-right input{
+    padding: 5px 15px 5px 15px;
 }
 
 /* FINE  MENU RIGHT*/
