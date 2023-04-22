@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 
-body, input, textarea, button {
+body,
+input,
+textarea,
+button {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
@@ -17,7 +20,7 @@ body, input, textarea, button {
     padding-bottom: 100px;
 }
 
-.margin{
+.margin {
     margin-bottom: 100px;
 }
 
@@ -56,12 +59,12 @@ body, input, textarea, button {
     margin: 10px;
 }
 
-.col-60{
+.col-60 {
     width: calc(60% - 20px);
     margin: 10px;
 }
 
-.col-40{
+.col-40 {
     width: calc(40% - 20px);
     margin: 10px;
 }
@@ -69,11 +72,11 @@ body, input, textarea, button {
 /* style */
 
 h2 {
-    font-size:38px;
+    font-size: 38px;
     margin-bottom: 20px;
 }
 
-h3{
+h3 {
     font-size: 23px;
     margin-bottom: 20px;
 
@@ -89,16 +92,17 @@ ul li {
     border: none;
     padding: 10px 15px 10px 15px;
     font-size: 15px;
-    font-weight:lighter;
+    font-weight: lighter;
 }
 
-.button-dropbox-light{
+.button-dropbox-light {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 10px;
     font-size: 18px;
     border: 0.5px solid black;
 }
+
 /* Fine style */
 
 
@@ -118,10 +122,11 @@ ul li {
     align-items: center;
 }
 
-.justify-center{
+.justify-center {
     display: flex;
     justify-content: center;
 }
+
 /* Fine Struttura */
 /* FINE UTILIà */
 
@@ -129,8 +134,8 @@ ul li {
 
 
 /* HEADER */
-header{
-    position:fixed;
+header {
+    position: fixed;
     right: 0px;
     left: 0px;
     z-index: 99;
@@ -140,6 +145,7 @@ header{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 /* MENU LEFT */
 .logo-dropbox {
     margin-right: 20px;
@@ -164,7 +170,7 @@ header ul li a {
     justify-content: flex-end;
 }
 
-.menu-right input{
+.menu-right input {
     padding: 5px 15px 5px 15px;
 }
 
@@ -183,31 +189,34 @@ header ul li a {
 }
 
 /* TITOLONE*/
-h1{
-    position: relative;   
+h1 {
+    position: relative;
     top: 75px;
     font-size: 80px;
     font-weight: 900;
 }
+
 /* FINE TITOLO*/
 /* COL LEFT  */
-.left-jumbo p{
+.left-jumbo p {
     padding-bottom: 30px
 }
 
-.left-jumbo input[type="button"]{
+.left-jumbo input[type="button"] {
     margin-bottom: 20px;
 }
 
-.right-jumbo{
+.right-jumbo {
     position: relative;
     bottom: -90px;
 }
+
 /* IMG */
-.left-jumbo{
+.left-jumbo {
     position: relative;
     bottom: -90px;
 }
+
 .right-jumbo img {
     width: 100%;
 }
@@ -227,15 +236,15 @@ h1{
 /* SEZIONE 1 - Piano business*/
 .input-business input {
     margin-top: 30px;
-
 }
 
 /* INIZIO COLONNE VERTICALI*/
-.content-price > div:first-child {
+.content-price>div:first-child {
     text-align: center;
     border-bottom: 1px solid rgb(190, 190, 190);
     padding: 5px 0px 5px 0px;
 }
+
 .border-gray {
     border: 1px solid rgb(190, 190, 190);
     border-width: thin;
@@ -246,12 +255,12 @@ h1{
     padding: 30px;
 }
 
-.col-33.border-gray{
+.col-33.border-gray {
     margin-right: 30px;
-    margin-top:40px;
+    margin-top: 40px;
 }
 
-.col-100.border-gray{
+.col-100.border-gray {
     margin-top: 30px;
 }
 
@@ -260,23 +269,27 @@ h1{
     line-height: 30px;
     margin-bottom: 29px;
 }
+
 /* Titolo */
-.content-price ul li{
+.content-price ul li {
     padding: 5px 0px 5px 0px;
 }
 
-.content-price{
+.content-price {
     font-size: 14px;
 }
-.price>strong{
+
+.price>strong {
     font-weight: 600;
 }
+
 /* Pulsante */
-.content-price .input-price input[type="button"]{
+.content-price .input-price input[type="button"] {
     margin: 40px 0px 40px 0px;
     width: 100%;
 }
-.price-list{
+
+.price-list {
     margin-top: 40px;
 }
 
@@ -288,18 +301,21 @@ h1{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.color-check e linkacquista ora{
+
+.color-check e linkacquista ora {
     color: #0061ff;
 }
+
 /* FINE COLONNE VERTICALI */
 
 
 /* COLONNA ORIZZONTALE */
-.content-enterprise{
+.content-enterprise {
     position: relative;
 }
+
 /* BOTTONE */
-.content-enterprise input[type="button"]{
+.content-enterprise input[type="button"] {
     padding-left: 30px;
     padding-right: 30px;
     position: absolute;
@@ -307,9 +323,10 @@ h1{
     top: 0px;
 }
 
-.content-enterprise h4{
+.content-enterprise h4 {
     margin-bottom: 40px;
 }
+
 /* FINE COLONNA ORIZZONTALE */
 /* FINE SEZIONE 1 - Piano business*/
 
@@ -318,28 +335,32 @@ h1{
 
 /* SEZIONE 2 - Trova partner */
 /* Immagine sinistra */
-.text-partner{
-    margin-top:50px;
-    margin-left:30px;
+.text-partner {
+    margin-top: 50px;
+    margin-left: 30px;
 }
-.img-partner img{
+
+.img-partner img {
     width: 100%;
 }
+
 /* Pulsante */
-.text-partner input[type="button"]{
+.text-partner input[type="button"] {
     margin-top: 40px;
     font-weight: 300;
     font-size: 16px;
 }
+
 /* SEZIONE 2 - Trvova partner */
 
 
 
 
 /* SEZIONE 3 - Operazioni */
-.operations img{
+.operations img {
     width: 100%;
 }
+
 /* FINE SEZIONE 3 - Operazioni */
 
 
@@ -347,7 +368,7 @@ h1{
 
 
 /* SEZIONE 4 - Clienti */
-.link-client h2{
+.link-client h2 {
     padding-bottom: 50px;
 }
 /* FINE SEZIONE 4 - Clienti */
@@ -357,26 +378,27 @@ h1{
 
 
 /* SEZIONE 5 - QUADRATI */
-.container-full{
+.container-full {
     width: 100%;
     padding-top: 100px;
 }
 
-.height-100{
+.height-100 {
     height: 100%;
 }
-.col-33-full{
+
+.col-33-full {
     width: calc(100%/3);
     height: calc(100vw/3);
 }
 
-.col-50-full{
+.col-50-full {
     width: 50%;
     height: 50%;
     position: relative;
 }
 
-.col-50-full img{
+.col-50-full img {
     filter: saturate(0);
     filter: grayscale(0);
     width: 60%;
@@ -387,13 +409,16 @@ h1{
 }
 
 /* QUADRATO CENTRALE */
-.square-wrap{
+.square-wrap {
     height: 100%;
     padding: 50px;
+    background-color: #f5f5f5;
 }
-.square-wrap img{
+
+.square-wrap img {
     width: 70%;
 }
+
 .square-wrap hr {
     width: 100px;
     height: 1px;
@@ -402,36 +427,48 @@ h1{
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.square-wrap span{
+
+.square-wrap span {
     display: block;
     margin-top: 30px;
 }
+
 /* COLORI SQUAREs */
 .col-50-full img {
     filter: invert(1);
 }
-.color-designit{
+
+.style-square-one {
     background-color: #a2d39b;
     border: 15px solid #d1e9cd;
 }
 
-.square-green{
-    background-color: green;
-
+.style-square-two {
+    background-color: #61082b;
 }
 
-.color-bicycle{
-    background-color: #d5001f ;
+.style-square-three {
+    background-color: #0093ce;
 }
 
-.square-yellow{
-    background-color: rgb(206, 206, 131);
-
+.style-square-four {
+    background-color: #ff1c1c;
 }
 
-.square-blu{
-    background-color: blue;
+.style-square-five {
+    background-color: #d5001f;
+}
 
+.style-square-six {
+    background-color: #b4d0e7;
+}
+
+.style-square-seven {
+    background-color: #0d2481;
+}
+
+.style-square-eight {
+    background-color: #ffd830;
 }
 /* FINE QUADRATI FULL */
 
@@ -439,49 +476,61 @@ h1{
 
 /* INIZIO SEZIONE 6 FULL- prova gratuita */
 
-.trial-wrap{
+.trial-wrap {
     position: relative;
 }
 
-.trial-wrap input[type="button"]{
-    position:absolute;
+.trial-wrap input[type="button"] {
+    position: absolute;
     right: 0;
     top: 0;
     border: none;
     padding-left: 50px;
     padding-right: 50px;
 }
-.trial-wrap h2{
-    color:#61082b;
+
+.trial-wrap h2 {
+    color: #61082b;
 }
 
-.background-trial{
+.background-trial {
     background-color: #b4d0e7;
     margin-bottom: 100px;
 }
+
 /* FINE SEZIONE 6 FULL */
 
 
 /* INIZIO SEZIONE 7 - Domande Frequenti */
-.query-wrap h2{
+.query-wrap h2 {
     margin-bottom: 50px;
 }
 
-.query-wrap{
+.query-wrap {
     position: relative;
 }
-.query-wrap i{
+
+.query-wrap i {
     position: absolute;
     right: 0;
     padding-right: 40px;
     font-size: 15px;
 }
-.query-wrap span{
+
+.query-wrap span {
     display: block;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-weight: bold;
 }
+
+.query-wrap hr {
+    height: 1px;
+    background-color: rgb(190, 190, 190);
+    border-width: 100;
+    border:none;
+}
+
 /* FINE SEZIONE 7 - Domande Frequenti */
 
 
@@ -496,9 +545,9 @@ footer {
     background-color: black;
 }
 
-footer h3{
+footer h3 {
     color: rgb(255, 255, 255);
-    font-weight: 600;
+    font-weight: 400
 }
 
 footer a {
@@ -506,21 +555,21 @@ footer a {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+
 /* FINE Footer up */
 
 /* Footer down */
-.wrap-languages-footer>hr{
+.wrap-languages-footer>hr {
     width: 120px;
     height: 1px;
     background-color: #ffffff;
     border: none;
     margin-top: 50px;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
-.wrap-languages-footer > ul{
+.wrap-languages-footer>ul {
     color: #b1b1b1;
 }
 
 /* FINE FOOTER */
-
