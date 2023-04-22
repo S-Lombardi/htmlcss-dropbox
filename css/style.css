@@ -490,6 +490,7 @@ h1{
 /* Footer up */
 
 footer {
+    padding-bottom: 40px;
     padding-top: 80px;
     margin-top: 100px;
     background-color: black;
@@ -497,7 +498,7 @@ footer {
 
 footer h3{
     color: rgb(255, 255, 255);
-    font-weight: bolder
+    font-weight: 600;
 }
 
 footer a {
@@ -520,8 +521,6 @@ footer a {
 .wrap-languages-footer > ul{
     color: #b1b1b1;
 }
-
-
 
 /* FINE FOOTER */
 
