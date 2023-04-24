@@ -234,9 +234,31 @@ h1 {
 
 
 /* SEZIONE 1 - Piano business*/
-.input-business input {
-    margin-top: 30px;
+
+/* Style INPUT RADIO */
+.input-business>h2{
+    margin-bottom: 60px;
 }
+.input-business input[type="radio"]{
+    appearance: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #bcbcbc;
+    transition: 0.2s all linear;
+    margin-right: 1px;
+    vertical-align:middle;
+}
+.input-business input[type="radio"]:checked {
+    border: 5px solid#0460ff;
+}
+
+.input-business label{
+    margin-right: 60px;
+}
+
+
+/* FINE Style INPUT RADIO */
 
 /* INIZIO COLONNE VERTICALI*/
 .content-price>div:first-child {
@@ -270,7 +292,6 @@ h1 {
     margin-bottom: 29px;
 }
 
-/* Titolo */
 .content-price ul li {
     padding: 5px 0px 5px 0px;
 }
@@ -542,7 +563,6 @@ h1 {
 .query-wrap hr {
     height: 1px;
     background-color: rgb(190, 190, 190);
-    border-width: 100;
     border:none;
 }
 
