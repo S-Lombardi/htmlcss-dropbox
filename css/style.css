@@ -16,8 +16,7 @@ button {
 .container-center {
     width: 60%;
     margin: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 200px;
 }
 
 .margin {
@@ -416,7 +415,7 @@ h1 {
 /* SEZIONE 5 - QUADRATI */
 .container-full {
     width: 100%;
-    padding-top: 100px;
+    margin-top: 130px;
 }
 
 .height-100 {
@@ -532,8 +531,13 @@ h1 {
 .background-trial {
     background-color: #b4d0e7;
     margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
+#margin-none{
+    margin-top: 0px;
+}
 /* FINE SEZIONE 6 FULL */
 
 
@@ -576,7 +580,7 @@ h1 {
 footer {
     padding-bottom: 40px;
     padding-top: 80px;
-    margin-top: 100px;
+    margin-top: 200px;
     background-color: black;
 }
 
