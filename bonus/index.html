@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropbox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- INIZIO HEADER -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <!--col sinistra -->
+                <div class="col-50">
+                    <div class="menu-left align-center">
+                        <img class="logo-dropbox" src="./img/logo-small.png" alt="logo">
+                        <ul>
+                            <li><a href="">Perchè Dropbox</a></li>
+                            <li><a href="">Funzioni</a></li>
+                            <li><a href="">Piani e Prezzi</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!--col destra -->
+                <div class="col-50">
+                    <div class="menu-right align-center">
+                        <ul>
+                            <li><a href="#">Supporto</a></li>
+                            <li><a href="#">Contatta l'ufficio vendite</a></li>
+                            <li><a href="#">Accedi</a></li>
+                        </ul>
+                        <input class="button-dropbox" type="button" value="Inizia">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- FINE HEADER -->
+
+    <!-- INIZIO MAIN -->
+    <main>
+        <!-- INIZIO JUMBOTRON -->
+        <div class="jumbotron">
+            <div class="container-large">
+                <div class="row">
+                    <!-- TITOLONE -->
+                    <div class="col-100">
+                        <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                    </div>
+                </div>
+                <!-- col left -->
+                <div class="row">
+                    <!-- PARAGRAFO-PULSANTE-FRECCIA -->
+                    <div class="col-30">
+                        <div class="left-jumbo">
+                            <!-- paragrafo jumbotron -->
+                            <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo
+                                stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo
+                                intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                            <!-- Pulsante -->
+                            <input class="button-dropbox" type="button" value="Inizia la tua prova gratuita">
+                            <!-- testo -->
+                            <div>Annulla in qualsiasi momento</div>
+                            <!-- frecciaCOL LEFT -->
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                    </div>
+                    <!-- col right -->
+                    <div class="col-70">
+                        <div class="right-jumbo">
+                            <img src="./img/jumbo.png" alt="img-jumbo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FINE JUMBOTRON -->
+
+
+        <!-- INIZIO SEZIONE 1 - Piano business  -->
+        <div class="container-center">
+            <div class="row">
+                <div class="col-100">
+                    <div class="input-business">
+                        <!-- Titolo -->
+                        <h2>Trova il piano business che fa per te</h2>
+                        <!-- Radio Input -->
+                        <input type="radio" id="radio-mese" name="fatturazione" value="mensile"> <label for="radio-mese">Fatturazione mensile</label>
+                        <input type="radio" id="radio-anno" name="fatturazione" value="annuale"> <label for="radio-anno">Fatturazione annuale</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- INIZIO COLONNE VERTICALI -->
+            <div class="row">
+                <!-- COL LEFT -->
+                <div class="col-33 border-gray">
+                    <div class="content-price ">
+                        <!-- Singolo -->
+                        <div> <i class="fa fa-user"></i> Singolo </div>
+                        <!--Prezzo -->
+                        <div class="col-padding ">
+                            <div class="price">
+                                <h3>Professional</h3>
+                                <strong>&euro; 12.00</strong>
+                                <div><em>/mese</em></div>
+                            </div>
+                            <!-- Lista e simboli -->
+                            <ul class="price-list check">
+                                <li>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>1 utente</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-folder"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>5 TB di spazio di archiviazione sicuro </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-share-nodes"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Fine Lista e simboli -->
+                            <!-- PULSANTE -->
+                            <div class="input-price justify-center">
+                                <input class="button-dropbox" type="button" value="Prova gratis per 30 giorni">
+                            </div>
+                            <!-- Link -->
+                            <div>oppure <a href="#">acquista ora</a></div>
+                            <hr>
+                            <!-- INIZIO LISTA CHECK -->
+                            <ul class="price-list check">
+                                <!-- Titolo -->
+                                <li>
+                                    <h4>Punti salienti del piano</h4>
+                                </li>
+                                <li>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div> Invio Transfer fino a 100 GB con Dropbox Transfer</div>
+                                    </div>    
+                                </li>
+                               
+                                <li>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Cartelle offline su dispositivi mobili</div>
+                                    </div>    
+                                </li>
+                            </ul>
+                            <!-- FINE LISTA CHECK -->
+                        </div>
+                    </div>
+
+                </div>
+                <!-- COL CENTER -->
+                <div class="col-33 border-gray">
+                    <div class="content-price">
+                        <!-- Team -->
+                        <div> <i class="fa fa-users"></i> Team </div>
+                        <!--Lista  -->
+                        <div class="col-padding ">
+                            <div class="price">
+                                <h3>Advanced</h3>
+                                <strong>&euro; 18.00</strong>
+                                <div><em>/utente/mese</em></div>
+                            </div>
+                            <!-- Inizio Lista e Simboli-->
+                            <ul class="price-list check">
+                                <li>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-users"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>3 o più utenti</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-folder"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>3 o più utentiTutto lo spazio di cuii ha bisogno in tuo team </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-share-nodes"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Sofisticate funzioni di controllo e per tenere al sicuro tutti i fil del tuo team</div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Fine Lista e simboli -->
+                            <!-- PULSANTE -->
+                            <div class="input-price justify-center">
+                                <input class="button-dropbox" type="button" value="Prova gratis per 30 giorni">
+                            </div>
+                            <!-- Link -->
+                            <div>oppure <a href="#">acquista ora</a></div>
+
+                            <hr>
+                            <!-- INIZIO LISTA CHECK -->
+                            <ul class="price-list check">
+                                <li>
+                                    <h4>Punti salienti del piano</h4>
+                                </li>
+                                    
+                                <li>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Nessun limite di spazio per i file </div>
+                                    </div>    
+                                </li>
+                                <li>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Cartelle offline su dispositivi mobili</div>
+                                    </div>    
+                                </li>
+                                <li>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Risparmio del 50% rispetto alle iscrizioni singole</div>
+                                    </div>    
+                                </li>
+                                <li>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Possibilità di inserire nuovi membri del team</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Gestione dei permessi in base ai ruoli</div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- FINE LISTA CHECK -->
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- COL RIGHT -->
+                <div class="col-33 border-gray">
+                    <div class="content-price">
+                        <!-- AZIENDA -->
+                        <div> <i class="fa fa-building"></i> Azienda </div>
+                        <!--ELENCO PREZZI  -->
+                        <div class="col-padding ">
+                            <h3>Enterprise</h3>
+                            <div class="price">
+                                <strong>Contattaci</strong>
+                                <div><em>-</em></div>
+                            </div>
+                            <!-- Inizio lista -->
+                            <ul class="price-list check">
+                                <li>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-users"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>10 o più utenti</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-folder"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Soluzioni personalizzabili per la tua azienda</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!-- Simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-share-nodes"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Assistenza personalizzata per aiutare gli amministratori in una  gestione su larga scala</div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Fine lista -->
+                            <!-- PULSANTE -->
+                            <div class="input-price justify-center">
+                                <input class="button-dropbox" type="button" value="Contattaci">
+                            </div>
+                            <!-- Link -->
+                            <div>oppure <a href="#">acquista ora</a></div>
+                            <hr>
+                            <!-- INIZIO LISTA CHECK -->
+                            <ul class="price-list check">
+                                <li>
+                                    <h4>Punti salienti del piano</h4>
+                                </li>
+                                <li>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Cartelle offline su dispositivi mobili</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Servizio assistenza 24/h</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!-- Check simbolo -->
+                                    <div class="col-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <!-- Testo -->
+                                    <div class="col-text-check">
+                                        <div>Possibilità di personalizzazione totale</div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- FINE LISTA CHECK -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- FINE COLONNE VERTICALI -->
+
+            <!-- COLONNA ORIZZONTALE -->
+            <div class="row">
+                <div class="col-100 border-gray">
+                    <div class="content-price">
+                        <!-- TEAM -->
+                        <div> <i class="fas fa-building"></i> Team </div>
+                        <!--COLLONNE -->
+                        <div class="col-padding ">
+
+                            <!-- ENTERPRISE -->
+                            <div class="content-enterprise">
+                                <h3>Enterprise</h3>
+                                <h4>Contatta l'ufficio vendite per i prezzi</h4>
+                                <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella
+                                    gestione su <br> qualciasi scala.</p>
+                                <!-- BOTTONE-->
+                                <input class="button-dropbox" type="button" value="Contatta l'ufficio vendite">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- FINE COLONNA ORIZZONTALE -->
+        <!-- FINE SEZIONE 1 - Piano business  -->
+
+
+
+        <!-- SEZIONE 2 - Trova un partner  -->
+        <div class="container-center">
+            <div class="row">
+                <div class="col-60">
+                    <!-- IMG -->
+                    <div class="img-partner">
+                        <img src="./img/partner.png" alt="partner">
+                    </div>
+                </div>
+                <!-- Paragrafo partner -->
+                <div class="col-40">
+                    <div class="text-partner">
+                        <h3>Entra in contatto con un partner Dropbox</h3>
+                        <p>Entra in contatto con un partner Dropbox
+                            Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari
+                            per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione
+                            e supporto continui.
+                            Trova un partner </p>
+                        <input class="button-dropbox-light" type="button" value="Trova un partner">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- FINE SEZIONE 2 - Trova un partner  -->
+
+
+
+        <!-- SEZIONE 3 - Operazioni  -->
+        <div class="container-center">
+            <div class="row">
+                <!-- Titolo -->
+                <div class="col-100">
+                    <h2>Esegui più operazioni con Dropbox Business</h2>
+                </div>
+            </div>
+            <div class="row wrap">
+                <!-- COL 1 -->
+                <div class="col-33">
+                    <div class="operations">
+                        <!-- Immagine -->
+                        <img src="./img/business-feature-switching-tools.png" alt="tools">
+                        <!-- Titolo -->
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <!-- Paragrafo -->
+                        <p>Passa di meno da uno strumento all'altro
+                            Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                            contenuti cloud da
+                            Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper
+                            direttamente da Dropbox.</p>
+                    </div>
+                </div>
+                <!-- COL 2 -->
+                <div class="col-33">
+                    <div class="operations">
+                        <!-- Immagine -->
+                        <img src="./img/business-feature-send-files-it.png" alt="tools">
+                        <!-- Titolo -->
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <!-- Paragrafo -->
+                        <p>Passa di meno da uno strumento all'altro
+                            Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                            contenuti cloud da
+                            Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper
+                            direttamente da Dropbox.</p>
+                    </div>
+
+                </div>
+                <!-- COL 3 -->
+                <div class="col-33">
+                    <div class="operations">
+                        <!-- Immagine -->
+                        <img src="./img/business-feature-coordinate-it.png" alt="tools">
+                        <!-- Titolo -->
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <!-- Paragrafo -->
+                        <p>Passa di meno da uno strumento all'altro
+                            Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                            contenuti cloud da
+                            Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper
+                            direttamente da Dropbox.</p>
+                    </div>
+
+                </div>
+                <!-- COL 4 -->
+                <div class="col-33">
+                    <div class="operations">
+                        <!-- Immagine -->
+                        <img src="./img/business-feature-integrations-it.png" alt="tools">
+                        <!-- Titolo -->
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <!-- Paragrafo -->
+                        <p>Passa di meno da uno strumento all'altro
+                            Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                            contenuti cloud da
+                            Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper
+                            direttamente da Dropbox.</p>
+                    </div>
+
+                </div>
+                <!-- COL 5 -->
+                <div class="col-33">
+                    <div class="operations">
+                        <!-- Immagine -->
+                        <img src="./img/business-feature-multi-device.png" alt="tools">
+                        <!-- Titolo -->
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <!-- Paragrafo -->
+                        <p>Passa di meno da uno strumento all'altro
+                            Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                            contenuti cloud da
+                            Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper
+                            direttamente da Dropbox.</p>
+                    </div>
+                </div>
+                <!-- COL 6 -->
+                <div class="col-33">
+                    <div class="operations">
+                        <!-- Immagine -->
+                        <img src="./img/business-feature-security.png" alt="tools">
+                        <!-- Titolo -->
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <!-- Paragrafo -->
+                        <p>Passa di meno da uno strumento all'altro
+                            Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi
+                            contenuti cloud da
+                            Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper
+                            direttamente da Dropbox.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- FINE SEZIONE 3 - Operazioni  -->
+
+
+
+        <!-- SEZIONE 4 - Clienti  -->
+        <div class="container-center">
+            <div class="row">
+                <div class="col-100">
+                    <div class="link-client">
+                        <h2> Più di 500.000 team utilizzano <br> Dropbox Business</h2>
+                        <a href="#">Scropri di più sui nostri clienti</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FINE SEZIONE 4 - Clienti  -->
+
+
+
+        <!-- SEZIONE 5 FULL - QUADRATI-->
+        <div class="container-full">
+            <!-- 3 QUADRATI -->
+            <div class="row">
+                <div class="col-33-full">
+                    <!-- SQUAREs LEFT -->
+                    <div class="row wrap height-100 ">
+                        <div class="col-50-full style-square-one ">
+                            <img src="./img/designit.svg" alt="img1">
+                        </div>
+                        <div class="col-50-full style-square-two">
+                            <img src="./img/arizona_state_university.svg" alt="img2">
+                        </div>
+                        <div class="col-50-full style-square-three">
+                            <img src="./img/university_of_florida.svg" alt="img3">
+                        </div>
+                        <div class="col-50-full style-square-four">
+                            <img src="./img/topps.svg" alt="img4">
+                        </div>
+                    </div>
+                    <!-- FINE SQUAREs LEFT -->
+                </div>
+
+                <!-- INIZIO QUADRATO CENTRALE -->
+                <div class="col-33-full">
+                    <div class="square-wrap">
+                        <img src="./img/designit.svg" alt="dedignit">
+                        <hr>
+                        <p>I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora
+                            molte solacioni sono compatibili con queste esigence. ma nessuna è facile quante Dropbox e
+                            Dropbox Paper. Cramote soluzioni sono compatibili con queste esigenze, ma nessuna è facile
+                            quanto Dropbox Paper"</p>
+                        <span>Morten Thomsen, Global IT Lead</span>
+                    </div>
+                </div>
+                <!-- FINE QUADRATO CENTRALE -->
+
+                <!-- INIZIO SQUAREs RIGHT -->
+                <div class="col-33-full">
+                    <div class="row wrap height-100 ">
+                        <!-- SQUAREs RIGHT -->
+                        <div class="col-50-full style-square-five">
+                            <img src="./img/world_bicycle_relief.svg" alt="img5">
+                        </div>
+                        <div class="col-50-full style-square-six">
+                            <img src="./img/hearst_corp.svg" alt="img6">
+                        </div>
+                        <div class="col-50-full style-square-seven">
+                            <img src="./img/lonely_planet.svg" alt="img7">
+                        </div>
+                        <div class="col-50-full style-square-eight">
+                            <img src="./img/clear_channel.svg" alt="img8">
+                        </div>
+                    </div>
+                </div>
+                <!-- FINE SQUAREs RIGHT -->
+            </div>
+            <!-- FINE 3 QUADRATI FULL -->
+        </div>
+        <!-- FINE SEZIONE 5 - Quadrati, membri team -->
+
+
+        <!-- SEZIONE 6 FULL- Prova gratuita -->
+        <!-- colore sfondo -->
+        <div class="background-trial">
+            <div class="container-center" id="margin-none">
+                <div class="row">
+                    <!-- Titolo -->
+                    <div class="col-100">
+                        <div class="trial-wrap">
+                            <h2>Porta Dropbox Business <br> nella tua azienda.</h2>
+                            <input class="button-dropbox-light" type="button" value="Inizia la tua prova">
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FINE SEZIONE 6 - Prova gratuita -->
+
+
+        <!-- SEZIONE 7 - Domande frequenti -->
+        <div class="container-center ">
+            <div class="row">
+                <!-- Titolo -->
+                <div class="col-100">
+                    <div class="query-wrap">
+                        <h2>Domande frequenti</h2>
+                        <hr>
+                        <span>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <i
+                                class="fa fa-angle-down"></i></span>
+                        <hr>
+                        <span>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <i
+                                class="fa fa-angle-down"></i></span>
+                        <hr>
+                        <span>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <i
+                                class="fa fa-angle-down"></i></span>
+                        <hr>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- FINE SEZIONE 7 - Domande frequenti -->
+    </main>
+    <!-- FINE MAIN -->
+
+
+    <!-- INIZIO FOOTER -->
+    <footer>
+        <!-- FOOTER UP -->
+        <div class="container-large">
+            <div class="row">
+                <!-- COl 1 -->
+                <div class="col-20">
+                    <!-- INIZIO LINK -->
+                    <div class="wrap-up-footer">
+                        <h3>Dropbox</h3>
+                        <ul>
+                            <li><a href="#">Applicazione desktop</a></li>
+                            <li><a href="#">Perchè Dropbox</a></li>
+                            <li><a href="#">Piani</a></li>
+                            <li><a href="#">Sicurezza</a></li>
+                            <li><a href="#">Funzioni</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- FINE COl 1 -->
+                <!-- COL 2 -->
+                <div class="col-20">
+                    <div class="wrap-link-footer">
+                        <h3>Prodotti</h3>
+                        <ul>
+                            <li><a href="#">Applicazione desktop</a></li>
+                            <li><a href="#">Perchè Dropbox</a></li>
+                            <li><a href="#">Piani</a></li>
+                            <li><a href="#">Sicurezza</a></li>
+                            <li><a href="#">Funzioni</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- FINE COL 2 -->
+                <!-- COL 3 -->
+                <div class="col-20">
+                    <div class="wrap-link-footer">
+                        <h3>Azienda</h3>
+                        <ul>
+                            <li><a href="#">Applicazione desktop</a></li>
+                            <li><a href="#">Perchè Dropbox</a></li>
+                            <li><a href="#">Piani</a></li>
+                            <li><a href="#">Sicurezza</a></li>
+                            <li><a href="#">Funzioni</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- FINE COL 3 -->
+                <!-- COL 4-->
+                <div class="col-20">
+                    <div class="wrap-link-footer">
+                        <h3>Supporto</h3>
+                        <ul>
+                            <li><a href="#">Applicazione desktop</a></li>
+                            <li><a href="#">Perchè Dropbox</a></li>
+                            <li><a href="#">Piani</a></li>
+                            <li><a href="#">Sicurezza</a></li>
+                            <li><a href="#">Funzioni</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- FINE COL 4-->
+                <!-- COL 5 -->
+                <div class="col-20">
+                    <div class="wrap-link-footer">
+                        <h3>Community</h3>
+                        <ul>
+                            <li><a href="#">Applicazione desktop</a></li>
+                            <li><a href="#">Perchè Dropbox</a></li>
+                            <li><a href="#">Piani</a></li>
+                            <li><a href="#">Sicurezza</a></li>
+                            <li><a href="#">Funzioni</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- FIINE LINK -->
+            </div>
+            <!-- FIINE FOOTER UP -->
+
+            <!-- INIZIO FOOTER DOWN -->
+            <div class="row">
+                <div class="col-100">
+                    <div class="wrap-languages-footer">
+                        <hr>
+                        <ul>
+                            <li><i class="fas fa-earth-americas"></i> italiano <i class="fas fa-caret-up"></i> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- FINE FOOTER DOWN -->
+        </div>
+    </footer>
+    <!-- FINE FOOTER -->
+</body>
+
+</html>
