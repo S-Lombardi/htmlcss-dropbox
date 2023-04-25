@@ -243,7 +243,7 @@ h1 {
 }
 .input-business input[type="radio"]{
     appearance: none;
-    border-radius: 50%;
+    borderns-radius: 50%;
     width: 20px;
     height: 20px;
     border: 2px solid #bcbcbc;
@@ -563,7 +563,7 @@ h1 {
 .query-wrap span {
     display: block;
     margin-top: 40px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     font-weight: bold;
 }
 
@@ -573,6 +573,30 @@ h1 {
     border:none;
 }
 
+/* ACCORDION - DROPDOWN */
+.accordion-answer {
+    /* display: none; */
+    /* height: 0px; */
+    margin: 0px;
+    opacity: 0;
+    max-height: 0px;
+    padding: 10px 10px;
+    font-size: 15px;
+    /* border-bottom: 1px solid #E6E6E6; */
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.accordion-query:hover > .accordion-answer {
+    opacity: 1;
+    max-height: 700px;
+    margin-top: 10px;
+    transition: all 1s ease-in-out 0s;
+}
+
+.accordion-answer{
+    margin-bottom: 20px;
+}
+/* END ACCORDION */
 /* FINE SEZIONE 7 - Domande Frequenti */
 
 
