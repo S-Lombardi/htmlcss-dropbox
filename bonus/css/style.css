@@ -174,8 +174,36 @@ header ul li a {
 .menu-right input {
     padding: 5px 15px 5px 15px;
 }
-
 /* FINE  MENU RIGHT*/
+/* MENU DROPDOWN */
+.wrap-dropdown-menu{
+    position: relative;
+    display: inline-block;
+}
+.drop-list{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+
+}
+.wrap-dropdown-menu:hover .drop-list{
+    display: block;
+}
+
+.drop-list li{
+    width: 100%;
+}
+
+.drop-list a{
+    display: block;
+    padding: 10px 14px;
+}
+
+.drop-list a:hover{
+    color: #0460ff;
+    background-color: #f3f3f3;
+}
+/* FINE MENU DROPDOWN */
 /* FINE HEADER */
 
 
@@ -243,7 +271,7 @@ h1 {
 }
 .input-business input[type="radio"]{
     appearance: none;
-    borderns-radius: 50%;
+    border-radius: 50%;
     width: 20px;
     height: 20px;
     border: 2px solid #bcbcbc;
@@ -258,8 +286,6 @@ h1 {
 .input-business label{
     margin-right: 60px;
 }
-
-
 /* FINE Style INPUT RADIO */
 
 /* INIZIO COLONNE VERTICALI*/
@@ -573,7 +599,7 @@ h1 {
     border:none;
 }
 
-/* ACCORDION - DROPDOWN */
+/* ACCORDION */
 .accordion-answer {
     /* display: none; */
     /* height: 0px; */
